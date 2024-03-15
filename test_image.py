@@ -1,9 +1,12 @@
+"""
+@author: <nktoan163@gmail.com>
+"""
 import cv2
 import numpy as np
 
-image = cv2.imread('forklift_yolo/images/train/9.jpg')
+image = cv2.imread('forklift_yolo/images/val/10.jpg')
 height, width, _ = image.shape
-with open('forklift_yolo/labels/train/9.txt', 'r') as text_file:
+with open('forklift_yolo/labels/val/10.txt', 'r') as text_file:
     data = text_file.readlines()
 data = [line.strip().split() for line in data]
 data = np.array(data, dtype=np.float32)
