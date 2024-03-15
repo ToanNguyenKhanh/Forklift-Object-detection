@@ -1,7 +1,10 @@
+"""
+@author: <nktoan163@gmail.com>
+"""
 import cv2
 import json
 
-file_name = '0DBZCMRDL65L_jpg.rf.95296d14d32f04fb708df2365cbf1229.jpg'
+file_name = '0VE1OCAVLKMX_jpg.rf.7e7d3d800877fb2cc60c249371f38dcc.jpg'
 image = cv2.imread('forklift_coco/train/{}'.format(file_name))
 
 annotation_file_path = 'forklift_coco/train/_annotations.coco.json'
@@ -10,6 +13,9 @@ with open(annotation_file_path, "r") as json_file:
     annotations = json_data['annotations']
     category = json_data['categories']
 
+for annotation in annotations:
+    image_id = annotation['image_id']
+    print("image_id:", image_id)
 
 image_id = None
 for img in json_data['images']:
