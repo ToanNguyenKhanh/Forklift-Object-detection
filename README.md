@@ -5,10 +5,11 @@ This project utilizes the YOLOv5 object detection model to identify forklifts wi
 
 ## Result
 
-<video width="320" height="240" controls>
-  <source src="yolov5/runs/detect/exp2/test_forklift.mp4" type="video/mp4">
-</video>
+<p align="center">
+  <img src="test_forklift.gif" alt="Demo video">
+</p>
 
+<p align="center"><em>Result</em></p> 
 
 ## Installation
 1. Clone the YOLOv5 repository:
