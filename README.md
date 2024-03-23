@@ -60,6 +60,15 @@ This project utilizes the YOLOv5 object detection model to identify forklifts wi
         ```
     - For video detection, replace `<image_path>` with the path to your video file.
 
+5. Result
+
+![Result](yolov5/runs/train/exp3/results.png)
+![Result](yolov5/runs/train/exp3/confusion_matrix.png)
+![Result](yolov5/runs/train/exp3/PR_curve.png)
+![Result](yolov5/runs/train/exp3/val_batch2_pred.jpg)
+
+
+
 ## Dataset Preparation
 Ensure your dataset contains a sufficient number of diverse images or video frames depicting forklifts in various orientations, lighting conditions, and backgrounds. Annotated bounding boxes should accurately enclose the forklifts in the images.
 
