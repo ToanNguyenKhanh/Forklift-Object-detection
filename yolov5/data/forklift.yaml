@@ -1,0 +1,10 @@
+path: /home/toan/PycharmProjects/ForkliftDetection/forklift_yolo
+train: images/train
+val: images/val
+
+nc: 2  # Số lượng lớp
+names: ['forklift_1', 'forklift_2']  # Tên của các lớp
+supercategories:
+  forklift:
+    - forklift_1
+    - forklift_2
