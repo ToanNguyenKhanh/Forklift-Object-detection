@@ -6,8 +6,7 @@ This project utilizes the YOLOv5 object detection model to identify forklifts wi
 ## Result
 
 <video width="320" height="240" controls>
-  <source src="runs/detect/exp2/test_forklift.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  <source src="yolov5/runs/detect/exp2/test_forklift.mp4" type="video/mp4">
 </video>
 
 
