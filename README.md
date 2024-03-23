@@ -3,11 +3,13 @@
 ## Introduction
 This project utilizes the YOLOv5 object detection model to identify forklifts within images or video frames. Forklift detection is crucial in industrial and logistical contexts for ensuring safety and operational efficiency. By leveraging deep learning techniques, particularly YOLOv5, we aim to develop an accurate and efficient solution for forklift detection.
 
-<p align="center">
-  <img src="runs/detect/exp2/test_forklift.mp4" alt="Demo video">
-</p>
+## Result
 
-<p align="center"><em>Result</em></p> 
+<video width="320" height="240" controls>
+  <source src="runs/detect/exp2/test_forklift.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Installation
 1. Clone the YOLOv5 repository:
