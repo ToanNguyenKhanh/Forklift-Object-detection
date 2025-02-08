@@ -1,0 +1,7 @@
+path: /home/toan/PycharmProjects/pythonProject1/football_yolo
+train: images/train
+val: images/val
+# Classes
+names:
+  0: player
+  1: ball
